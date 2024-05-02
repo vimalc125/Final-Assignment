@@ -221,7 +221,7 @@ header {
     
 }
 
-@media (min-width:481px) and (max-width: 768px) 
+@media (max-width: 768px) 
  {
     .navbar {
         flex-direction:row;
@@ -292,7 +292,7 @@ header {
 }
 
 
-@media (min-width:320px) and (max-width: 480px) 
+@media (max-width: 480px) 
 {
     .navbar {
         flex-direction:row;
