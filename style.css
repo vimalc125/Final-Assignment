@@ -173,8 +173,9 @@ header {
 }
 .para3{
     margin: 10px;
-    margin-left: 70px;
+    margin-left: 60px;
     padding-right: 0px;
+    margin-right: 25px;
     text-align: end;
     
 }
@@ -202,7 +203,7 @@ header {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    margin-left: 110px;
+    margin-left: 180px;
 
     
 }
@@ -214,13 +215,14 @@ header {
     padding: 10px 25px;
     cursor: pointer;
     max-width: 100%;
-    margin-left: 140px;
+    margin-left: 290px;
     text-align: end;
     
     
 }
 
-@media(max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1023px) 
+ {
     .navbar {
         flex-direction:row;
         align-items: flex-start;
@@ -290,7 +292,8 @@ header {
 }
 
 
-@media(max-width: 480px) {
+@media only screen and (max-width: 767px) 
+{
     .navbar {
         flex-direction:row;
         align-items: flex-start;
